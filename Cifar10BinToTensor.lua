@@ -43,10 +43,10 @@ local function convertCifar10BinToTorchTensor(inputFnames, outputFname)
 end
 
 convertCifar10BinToTorchTensor({'cifar-10-batches-bin/data_batch_1.bin',
-                                'cifar-10-batches-bin/data_batch_1.bin',
-                                'cifar-10-batches-bin/data_batch_1.bin',
-                                'cifar-10-batches-bin/data_batch_1.bin',
-                                'cifar-10-batches-bin/data_batch_1.bin'},
+                                'cifar-10-batches-bin/data_batch_2.bin',
+                                'cifar-10-batches-bin/data_batch_3.bin',
+                                'cifar-10-batches-bin/data_batch_4.bin',
+                                'cifar-10-batches-bin/data_batch_5.bin'},
    'cifar10-train.t7')
 
 convertCifar10BinToTorchTensor({'cifar-10-batches-bin/test_batch.bin'},
